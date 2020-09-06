@@ -1,0 +1,187 @@
+body{
+	background: #9cbe77;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.botonera li{
+	display: inline-block;
+	margin-left: 2px;
+	font-weight: 700;
+	font-size: 20px;
+	
+	
+}
+.botonera li a{
+	color: rgb(221, 221, 221);
+	
+	
+}
+.botonera li a:hover{
+	color: rgb(194, 191, 191);
+	text-decoration: none;
+	
+	
+	
+}
+
+
+header{
+	background: #6e757c; 
+	padding-top: 15px;
+	padding-bottom: 10px;
+	position: fixed;
+	width: 100%;
+	z-index: 34242;
+}
+
+.principal{
+	background: rgb(75, 74, 75);
+	height: 90vh;
+	background: url(../images/23926343_1661500030582540_5469621639768249700_o.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+
+.vertical-centered-text {
+  -ms-display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.cta{
+	text-align: center;
+	
+}
+h1{
+	font-weight: 700;
+	font-size: 80px;
+	color: rgba(255, 255, 255, 0.692);
+	
+	
+
+}
+
+.orange{
+
+	background: rgb(0, 0, 0);
+	color: rgb(213, 218, 211)
+
+}.nosotros{
+	width: 100%;
+	height: 50vh;
+	text-align: center;
+	padding-top: 150px;
+	
+	
+}
+.nosotros h1{
+	font-weight: 300;
+	
+}
+.servicios{
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 80px;
+	
+}
+.servicios img{
+	width: 40%;
+	text-align: center;
+	
+	
+}
+
+.servicios h1{
+	color: rgb(0, 0, 0);
+	font-weight: 100;
+	
+}
+.servicios .images{
+	padding-top: 30px;
+	
+}
+
+.images .col-md-3{
+	padding-top: 50px;
+	
+}
+.social{
+	text-align: center;
+	
+
+}
+.social img{
+	width: 200%;
+	text-align: center;
+	
+}
+
+footer{
+	background: #646668;
+	height: 50vh;
+	padding-top: 50px;
+}
+
+#home {
+	color: white;
+}
+.col-xs-4{
+	text-align: center;
+	background: rgb(224, 226, 222);
+	
+
+}
+h2{
+	text-align: center;
+	font-weight: 600;
+	font-size: 30px;
+	color: rgb(18, 22, 18);
+}
+h4{
+	color: rgba(255, 255, 255, 0.747);
+}
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
+
+}
+	
+.off {
+	display: none !important;
+	}
+.on {
+	display: block !important;
+	}
+.col-md-2 {
+	width: 100%;
+	}
+.social img{
+	width: 100%;
+}
+.botonera li a {
+	font-size: 13px;
+	
+}
+.nosotros{
+	height: 400px;
+	overflow: hidden;
+	padding-top: 70px;
+}
+#home{
+	padding-top: 85px;
+}
+
+h1{
+	font-size: 30px;
+
+}
+
+footer{
+	padding-top: 4px;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>La solucíon del jardin</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+	
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row top">
+				
+				<div class="col-md-4"><a href="#home" data-ancla="home" class="off"></a>
+				</div>
+				<div class="col-md-3"></div>
+				<div class="col-md-5">
+					<ul class='botonera'>
+						<li><a href="#nosotros" data-ancla="nosotros">Quienes somos</a></li>
+						<li><a href="#servicios" data-ancla="servicios">Servicios</a></li>
+						<li><a href="#contacto" data-ancla="contacto">Contacto</a></li>
+	
+					</ul>
+	
+				</div>
+			</div>
+		</div>
+	</header>
+<div class="principal vertical-centered-text" id="home">
+	<div class="col-md-8 cta"><h1>La solución del jardín</h1> 
+			<br>
+			<br>
+			<h4>Hola te invitamos a ver la galería de fotos de nuestros trabajos<h4>
+			<a href="trabajos.html" class= "btn btn-secondary">Nuestros trabajos</a>
+			
+
+		</div>
+</div>
+
+<div class="nosotros orange" id="nosotros">
+	<div class="container">
+		<h1>Sobre nosotros</h1>
+		<p>
+			Somos una empresa de Rio Cuarto, dedicada al mantenimiento de jardines.
+
+			Contamos con un grupo de profesionales ampliamente capacitados.</p>
+			
+	</div>
+	<a href="Adivinanza.html" class= "btn btn-warning">¡Gánate un limonero!</a>
+</div>
+
+
+<div class="container servicios" id="servicios">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>Nuestros Servicios</h1>
+		</div>
+	</div>
+	<div class="row images">
+		<div class="col-md-3">
+			<img src="images/fertilizante.svg" alt="">
+			<h3>Fertilizacion</h3>
+			<p>Mejorá el crecimiento de tus plantas</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/cobertura.svg" alt="">
+			<h3>Podas</h3>
+			<p>En alturas, cercos y frutales</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/cortacesped (1).svg" alt="">
+			<h3>Corte de cespéd</h3>
+			<p></p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/crecimiento.svg" alt="">
+			<h3>Plantaciones</h3>
+			<p>Embellecé tu jardín con las mejores especies</p>
+		</div>
+	</div>	
+</div>
+
+<footer>
+	<div class="container" id="contacto">
+		<div class="row">
+			<div class="col-md-12">
+					<h2>CONTACTO</h2><br><br>
+
+			</div>
+		</div>
+		<div class="row social">
+		<div class="col-3"></div>	
+					<div class="col-2">
+						<a href="https://api.whatsapp.com/send?phone=+543583416524"><img src="images/whatsapp9.svg" alt=""></a></div>
+
+					<div class="col-2">
+						<a href="contacto.html"  target="_blank"><img src="images/contrato.svg" alt=""></a></div>
+
+					<div class="col-2">
+						<a target="_blank" href="https://www.instagram.com/emiliopolliotti/" ><img src="images/instagram2_123258.svg" alt=""></a></div>
+
+						
+			
+</footer>
+	<div>
+		<p class="vertical-centered-text" >© 2020 Emilio Polliotti.</p>
+	</div>
+
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script> 
+<script>
+	// A $( document ).ready() block.
+$(document).ready(function() {    
+$('.top a').click(function(e){
+        e.preventDefault();
+        var offset = $($(this).attr('href')).offset().top;
+        $('html, body').animate({scrollTop:offset}, 600);
+        return false;
+    });
+
+});
+
+</script>
+
+
+</body>
+</html>
